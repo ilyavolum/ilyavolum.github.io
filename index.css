@@ -1,0 +1,28 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+  padding: 0;
+  color: #111;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+li {
+  margin-bottom: 8px;
+}
+div.content {
+	/*display: */
+}
+a {
+	text-decoration: none;
+	color: #111
+}
+h1 {
+	font-size: 1em;
+	font-weight: normal;
+}
