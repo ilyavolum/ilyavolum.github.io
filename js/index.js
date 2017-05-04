@@ -47,21 +47,33 @@ document.addEventListener("DOMContentLoaded", function() {
     var wWidth = window.innerWidth;
     if (projectHorizontal && wWidth > 600) {
       var img = document.querySelectorAll('img');
-      var sliderWidth = 0;
 
-      var int = setInterval(function() {
-        if (img[img.length - 1].getBoundingClientRect().width) {
-          clearInterval(int);
-
-          for (var i = img.length - 1; i >= 0; i--) {
-            var imgWidth = img[i].getBoundingClientRect().width;
-            sliderWidth = sliderWidth + imgWidth + 60;
-          }
-          projectHorizontal.style.width = sliderWidth + 'px';
+      setTimeout(function() {
+        var sliderWidth = 0;
+        for (var i = img.length - 1; i >= 0; i--) {
+          var imgWidth = img[i].getBoundingClientRect().width;
+          sliderWidth = sliderWidth + imgWidth + 60;
         }
-      }, 100);
-    } else if (projectHorizontal) {
-      projectHorizontal.style.width = 'auto';
+        projectHorizontal.style.width = sliderWidth + 'px';
+      }, 1000);
+
+      setTimeout(function() {
+        var sliderWidth = 0;
+        for (var i = img.length - 1; i >= 0; i--) {
+          var imgWidth = img[i].getBoundingClientRect().width;
+          sliderWidth = sliderWidth + imgWidth + 60;
+        }
+        projectHorizontal.style.width = sliderWidth + 'px';
+      }, 3000);
+
+      setTimeout(function() {
+        var sliderWidth = 0;
+        for (var i = img.length - 1; i >= 0; i--) {
+          var imgWidth = img[i].getBoundingClientRect().width;
+          sliderWidth = sliderWidth + imgWidth + 60;
+        }
+        projectHorizontal.style.width = sliderWidth + 'px';
+      }, 6000);
     }
   }
 });
