@@ -5,7 +5,12 @@ body {
   margin: 0;
   padding: 0;
   color: #111;
+  font-size: 13px;
+  font-weight: 500;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+* {
+  box-sizing: border-box;
 }
 ul {
   list-style: none;
@@ -15,14 +20,89 @@ ul {
 li {
   margin-bottom: 8px;
 }
-div.content {
-	/*display: */
+.content {
+  max-width: 900px;
+}
+.homepage {
+	display: none;
 }
 a {
 	text-decoration: none;
 	color: #111
 }
+nav {
+  padding: 30px;
+  background: white;
+  position: fixed;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+}
+nav.project-nav {
+  height: auto;
+}
+.project-nav .main-nav,
+.project-nav .secondary-nav {
+  display: none;
+}
+.project-nav h1 {
+  margin-bottom: 0;
+}
+.main-nav {
+  text-align: right;
+}
+.project {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 78px;
+}
+.secondary-nav {
+  position: absolute;
+  bottom: 30px; left: 30px;
+}
 h1 {
-	font-size: 1em;
-	font-weight: normal;
+	font-size: 1.2em;
+	font-weight: 500;
+  margin-top: 0;
+}
+img {
+  display: block;
+  width: 100%;
+}
+nav h1 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-align: right;
+  margin-bottom: 30px;
+  margin-right: -4px;
+}
+.project-vertical img {
+  margin-bottom: 30px;
+}
+@media only screen and (min-width: 600px) {
+  .homepage {
+    display: block;
+  }
+  .project-nav .main-nav,
+  .project-nav .secondary-nav {
+    display: block;
+  }
+  .project-nav h1 {
+    margin-bottom: 30px;
+  }
+  nav.project-nav {
+    height: 100%;
+  }
+  .project {
+    padding-left: 200px;
+    padding-top: 80px;
+    padding-right: 30px;
+  }
+  .homepage {
+    padding-left: 200px;
+    padding-top: 80px;
+    padding-right: 30px;
+  }
+  nav {
+    width: 200px;
+  }
 }
