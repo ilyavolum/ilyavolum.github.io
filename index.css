@@ -83,6 +83,9 @@ nav h1 {
 .project-vertical img {
   margin-bottom: 15px;
 }
+.project-horizontal img {
+  margin-bottom: 15px;
+}
 @media only screen and (min-width: 600px) {
   .homepage {
     display: block;
@@ -96,6 +99,10 @@ nav h1 {
   }
   nav.project-nav {
     height: 100%;
+  }
+  .project-horizontal img {
+    margin-bottom: 0;
+    margin-right: 15px;
   }
   .project {
     padding-left: 193px;
