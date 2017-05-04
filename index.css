@@ -6,7 +6,7 @@ body {
   padding: 0;
   color: #111;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 400;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 * {
@@ -53,6 +53,7 @@ nav.project-nav {
 .project {
   padding-left: 30px;
   padding-right: 30px;
+  padding-bottom: 30px;
   padding-top: 78px;
 }
 .secondary-nav {
@@ -61,7 +62,7 @@ nav.project-nav {
 }
 h1 {
 	font-size: 1.2em;
-	font-weight: 500;
+	font-weight: 400;
   margin-top: 0;
 }
 img {
