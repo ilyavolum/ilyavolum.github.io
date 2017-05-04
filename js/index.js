@@ -11,7 +11,14 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   window.addEventListener("resize", handleResize);
-  handleResize();
+
+  var img = document.querySelectorAll('img');
+  var int = setInterval(function() {
+    if (img[img.length - 1].getBoundingClientRect().width) {
+      clearInterval(int);
+      handleResize();
+    }
+  }, 100);
 
   function handleResize() {
     var wWidth = window.innerWidth;
@@ -20,12 +27,12 @@ document.addEventListener("DOMContentLoaded", function() {
       var sliderWidth = 0;
 
       var int = setInterval(function() {
-        if (img[0].getBoundingClientRect().width) {
+        if (img[img.length - 1].getBoundingClientRect().width) {
           clearInterval(int);
 
           for (var i = img.length - 1; i >= 0; i--) {
             var imgWidth = img[i].getBoundingClientRect().width;
-            sliderWidth = sliderWidth + imgWidth + 45;
+            sliderWidth = sliderWidth + imgWidth + 60;
           }
           projectHorizontal.style.width = sliderWidth + 'px';
         }
