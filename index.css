@@ -68,6 +68,10 @@ img {
   display: block;
   width: 100%;
 }
+.active {
+  color: #0056FF;
+  text-decoration: underline;
+}
 nav h1 {
   text-transform: uppercase;
   letter-spacing: 4px;
