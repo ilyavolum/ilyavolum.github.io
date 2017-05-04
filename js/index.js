@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (projectHorizontal && wWidth > 600) {
       var img = document.querySelectorAll('img');
 
-      setTimeout(function() {
+      var int = setInterval(function() {
         var sliderWidth = 0;
         for (var i = img.length - 1; i >= 0; i--) {
           var imgWidth = img[i].getBoundingClientRect().width;
@@ -56,24 +56,6 @@ document.addEventListener("DOMContentLoaded", function() {
         }
         projectHorizontal.style.width = sliderWidth + 'px';
       }, 1000);
-
-      setTimeout(function() {
-        var sliderWidth = 0;
-        for (var i = img.length - 1; i >= 0; i--) {
-          var imgWidth = img[i].getBoundingClientRect().width;
-          sliderWidth = sliderWidth + imgWidth + 60;
-        }
-        projectHorizontal.style.width = sliderWidth + 'px';
-      }, 3000);
-
-      setTimeout(function() {
-        var sliderWidth = 0;
-        for (var i = img.length - 1; i >= 0; i--) {
-          var imgWidth = img[i].getBoundingClientRect().width;
-          sliderWidth = sliderWidth + imgWidth + 60;
-        }
-        projectHorizontal.style.width = sliderWidth + 'px';
-      }, 6000);
     }
   }
 });
