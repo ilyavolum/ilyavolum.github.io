@@ -84,6 +84,8 @@ nav h1 {
   margin-bottom: 15px;
 }
 .project-horizontal img {
+  display: inline-block;
+  vertical-align: top;
   margin-bottom: 15px;
 }
 @media only screen and (min-width: 600px) {
