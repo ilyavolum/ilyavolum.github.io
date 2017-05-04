@@ -102,9 +102,15 @@ nav h1 {
   nav.project-nav {
     height: 100%;
   }
+  .project-horizontal {
+    min-width: 1000px;
+  }
   .project-horizontal img {
     margin-bottom: 0;
     margin-right: 15px;
+    width: auto;
+    height: 80vh;
+    max-height: 400px;
   }
   .project {
     padding-left: 193px;
@@ -118,5 +124,10 @@ nav h1 {
   }
   nav {
     width: 193px;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .project-horizontal img {
+    max-height: 700px;
   }
 }
