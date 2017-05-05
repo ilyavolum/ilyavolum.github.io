@@ -127,7 +127,7 @@ nav h1 {
 @media only screen and (min-width: 600px) {
   .cv,
   .project-vertical p {
-    margin-top: -2px;
+    margin-top: -3px;
   }
   .homepage {
     display: block;
@@ -163,7 +163,7 @@ nav h1 {
   }
   .project {
     padding-left: 242px;
-    padding-top: 80px;
+    padding-top: 81px;
     padding-right: 30px;
     padding-bottom: 30px;
   }
