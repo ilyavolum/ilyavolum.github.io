@@ -29,7 +29,7 @@ li {
 }
 a {
 	text-decoration: none;
-	color: #111
+	color: #111;
 }
 nav {
   padding: 15px;
@@ -106,9 +106,6 @@ nav h1 {
   width: 70%;
 }
 .project-slider .arrows {
-  // position: absolute;
-  // right: 0; bottom: 0;
-  // text-align: right;
   margin-top: 15px;
   width: 30%;
   user-select: none;
@@ -120,7 +117,17 @@ nav h1 {
 .project-slider img {
   cursor: pointer;
 }
+.cv p {
+  margin-top: 0;
+}
+.cv a {
+  color: #0056FF;
+  text-decoration: underline;
+}
 @media only screen and (min-width: 600px) {
+  .cv {
+    margin-top: -2px;
+  }
   .homepage {
     display: block;
   }
