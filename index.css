@@ -110,6 +110,7 @@ nav h1 {
   right: 15px; bottom: -10px;
   text-align: right;
   width: 30%;
+  user-select: none;
 }
 .project-slider .arrows span {
   cursor: pointer;
