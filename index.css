@@ -158,7 +158,7 @@ nav h1 {
   .project-horizontal img {
     margin-bottom: 0;
     margin-right: 15px;
-    width: auto;
+    width: auto; height: 100%;
   }
   .secondary-nav {
     bottom: 30px; left: 30px;
