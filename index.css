@@ -70,12 +70,11 @@ img {
   display: block;
   width: 100%;
 }
-.active {
+a.active {
   color: #0056FF;
   text-decoration: underline;
 }
 nav h1 {
-  text-transform: uppercase;
   letter-spacing: 10px;
   text-align: right;
   margin-bottom: 30px;
@@ -89,7 +88,43 @@ nav h1 {
   vertical-align: top;
   margin-bottom: 15px;
 }
+.project-slider {
+  position: relative;
+}
+.project-slider li {
+  display: none;
+  margin: 0;
+}
+.project-slider li.active {
+  display: block;
+}
+.project-slider p {
+  position: absolute;
+  left: 15px; bottom: -20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  width: 60%;
+}
+.project-slider .arrows {
+  position: absolute;
+  right: 15px; bottom: -10px;
+  text-align: right;
+  width: 30%;
+}
+.project-slider .arrows span {
+  cursor: pointer;
+  padding-left: 5px;
+}
+.project-slider img {
+  cursor: pointer;
+}
 @media only screen and (min-width: 600px) {
+  .project-slider p {
+    left: 242px;
+  }
+  .project-slider .arrows {
+    right: 30px;
+  }
   .homepage {
     display: block;
   }
@@ -106,7 +141,7 @@ nav h1 {
   .project-horizontal {
     overflow-y: hidden;
     padding-bottom: 0;
-    min-width: 2000px;
+    min-width: 3000px;
     height: 580px;
   }
   .project-horizontal img {
