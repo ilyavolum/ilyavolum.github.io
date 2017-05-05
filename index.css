@@ -34,6 +34,7 @@ a {
 nav {
   padding: 15px;
   background: white;
+  line-height: 1.2;
   position: fixed;
   left: 0; top: 0;
   z-index: 9;
@@ -127,7 +128,8 @@ nav h1 {
 @media only screen and (min-width: 600px) {
   .cv,
   .project-vertical p {
-    margin-top: -3px;
+    margin-top: 0;
+    line-height: 1.2;
   }
   .homepage {
     display: block;
@@ -161,6 +163,10 @@ nav h1 {
   .secondary-nav {
     bottom: 30px; left: 30px;
   }
+  nav h1 {
+    position: absolute;
+    top: 30px; right: 30px;
+  }
   .project {
     padding-left: 242px;
     padding-top: 81px;
@@ -175,6 +181,11 @@ nav h1 {
   nav {
     width: 242px;
     padding: 30px;
+    padding-top: 81px;
+  }
+  nav,
+  nav.project-nav {
+    padding-top: 81px;
   }
 }
 @media only screen and (min-width: 1000px) {
