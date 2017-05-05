@@ -7,9 +7,6 @@ document.addEventListener("DOMContentLoaded", function() {
   if (homepage) {
     var img = document.createElement('img');
     var i = Math.floor(Math.random() * (imagesHomepage.length - 1));
-    if (i==1 || i==2 || i==3 || i==4 || i==7) {
-      img.classList.add("vertical");
-    }
     img.setAttribute("src",imagesHomepage[i]);
     homepage.appendChild(img);
   }
