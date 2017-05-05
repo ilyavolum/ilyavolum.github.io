@@ -128,6 +128,7 @@ nav h1 {
   .project-nav .secondary-nav {
     display: block;
   }
+  .homepage img.vertical,
   .project-slider img.vertical {
     width: auto;
     height: 400px;
