@@ -203,3 +203,7 @@ nav h1 {
 //     width: 1000px;
 //   }
 // }
+nav a:hover {
+  color: #0056FF;
+  text-decoration: none;
+}
