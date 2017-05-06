@@ -73,7 +73,7 @@ img {
   width: 100%;
 }
 a.active {
-  color: #0056FF;
+  color: #0019ff;
   text-decoration: underline;
 }
 nav h1 {
@@ -122,7 +122,7 @@ nav h1 {
   margin-top: 0;
 }
 .cv a {
-  color: #0056FF;
+  color: #0019ff;
   text-decoration: underline;
 }
 @media only screen and (min-width: 600px) {
@@ -204,6 +204,6 @@ nav h1 {
 //   }
 // }
 nav a:hover {
-  color: #0056FF;
+  color: #0019ff;
   text-decoration: none;
 }
