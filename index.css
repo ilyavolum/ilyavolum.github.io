@@ -125,6 +125,9 @@ nav h1 {
   color: #0019ff;
   text-decoration: underline;
 }
+.project h1 {
+  letter-spacing: 10px;
+}
 @media only screen and (min-width: 600px) {
   .cv,
   .project-vertical p {
@@ -145,6 +148,9 @@ nav h1 {
   }
   .project-nav h1 {
     margin-bottom: 30px;
+  }
+  .project h1 {
+    display: none;
   }
   nav.project-nav {
     height: 100%;
