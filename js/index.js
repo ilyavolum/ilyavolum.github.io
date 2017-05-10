@@ -97,9 +97,10 @@ document.addEventListener("DOMContentLoaded", function() {
         var sliderWidth = 0;
         for (var i = img.length - 1; i >= 0; i--) {
           var imgWidth = img[i].getBoundingClientRect().width;
-          sliderWidth = sliderWidth + imgWidth + 60;
+          console.log(imgWidth);
+          sliderWidth = sliderWidth + imgWidth;
         }
-        projectHorizontal.style.width = sliderWidth + 'px';
+        projectHorizontal.style.width = sliderWidth + 262 + 'px';
       }, 1000);
     }
   }

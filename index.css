@@ -156,14 +156,18 @@ nav h1 {
     height: 100%;
   }
   .project-horizontal {
-    overflow-y: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
     padding-bottom: 0;
-    min-width: 3000px;
+    width: 5000px;
     height: 580px;
   }
   .project-horizontal img {
+    display: block;
     margin-bottom: 0;
-    margin-right: 15px;
+    padding-right: 15px;
     width: auto; height: 100%;
   }
   .secondary-nav {
