@@ -86,7 +86,9 @@ img {
 }
 a.active {
   color: #0019ff;
-  text-decoration: underline;
+}
+.project a {
+  color: #0019ff;
 }
 nav h1 {
   letter-spacing: 10px;
