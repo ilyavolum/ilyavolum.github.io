@@ -100,7 +100,9 @@ nav h1 {
 .project-horizontal img {
   display: inline-block;
   vertical-align: top;
-  margin-bottom: 15px;
+  margin-bottom: 15px;a.active {
+    color: #0019ff;
+    text-decoration: underline;
 }
 .project-slider .wrapper {
   position: relative;
