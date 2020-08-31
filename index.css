@@ -86,6 +86,7 @@ img {
 }
 a.active {
   color: #0019ff;
+  text-decoration: underline;
 }
 nav h1 {
   letter-spacing: 10px;
@@ -95,8 +96,6 @@ nav h1 {
 }
 .project-vertical img {
   margin-bottom: 15px;
-  a.active {
-    color: #0019ff;
 }
 .project-horizontal img {
   display: inline-block;
