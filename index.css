@@ -137,7 +137,7 @@ nav h1 {
 }
 .cv a {
   color: #0019ff;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .project h1 {
   letter-spacing: 10px;
