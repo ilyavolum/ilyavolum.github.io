@@ -105,7 +105,7 @@ nav h1 {
   margin-bottom: 15px;
 }
 .project-slider .wrapper {
-  position: relative;
+  position: fixed;
 }
 .project-slider li {
   display: none;
