@@ -217,13 +217,13 @@ nav h1 {
     width: auto;
     height: 400px;
   }
-  // .project-slider img.panorama {
+  // .project-slider img.fixed {
   //   width: auto;
   //   height: 400;
   // }
 }
 // @media only screen and (min-width: 1300px) {
-//   .project-slider img.panorama {
+//   .project-slider img.fixed {
 //     width: 1000px;
 //   }
 // }
