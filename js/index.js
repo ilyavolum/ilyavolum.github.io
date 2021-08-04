@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", function() {
   var homepage = document.getElementById("homepage");
   var projectHorizontal = document.getElementById("project-horizontal");
   var projectSlider = document.getElementById("project-slider");
-  var imagesHomepage = ['19.jpg','20.jpg','21.jpg'];
+  var imagesHomepage = ['19.jpg','20.jpg','21.jpg','22.jpg'];
 
   if (homepage) {
     var img = document.createElement('img');
-    var i = Math.floor(Math.random() * (imagesHomepage.length - 1));
+    var i = Math.floor(Math.random() * (imagesHomepage.length - 3));
     img.setAttribute("src",imagesHomepage[i]);
     homepage.appendChild(img);
   }
