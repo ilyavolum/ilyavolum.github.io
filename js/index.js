@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   if (homepage) {
     var img = document.createElement('img');
-    var i = Math.floor(Math.random() * (imagesHomepage.length - 3));
+    var i = Math.floor(Math.random() * (imagesHomepage.length - 1));
     img.setAttribute("src",imagesHomepage[i]);
     homepage.appendChild(img);
   }
