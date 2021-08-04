@@ -215,11 +215,11 @@ nav h1 {
 @media only screen and (min-width: 1000px) {
   .project-slider img {
     width: auto;
-    height: 1000px;
+    height: 400px;
   }
   // .project-slider img.panorama {
   //   width: auto;
-  //   height: 1000;
+  //   height: 400;
   // }
 }
 // @media only screen and (min-width: 1300px) {
