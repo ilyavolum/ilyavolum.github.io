@@ -215,7 +215,7 @@ nav h1 {
 @media only screen and (min-width: 1000px) {
   .project-slider img {
     width: auto;
-    height: 400px;
+    height: 1000px;
   }
   // .project-slider img.panorama {
   //   width: auto;
