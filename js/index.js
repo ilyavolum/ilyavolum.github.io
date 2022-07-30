@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var homepage = document.getElementById("homepage");
   var projectHorizontal = document.getElementById("project-horizontal");
   var projectSlider = document.getElementById("project-slider");
-  var imagesHomepage = ['19.jpg','20.jpg','22.jpg','23.jpg'];
+  var imagesHomepage = ['1.jpg','2.jpg','3.jpg','4.jpg','5.jpg'];
 
   if (homepage) {
     var img = document.createElement('img');
